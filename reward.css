@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+}
+
+nav {
+    padding: 0px 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#logo {
+    height: 50px;
+    margin-right: 40px;
+}
+
+#navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p1 div:hover {
+    color: #006241;
+    cursor: pointer;
+
+}
+
+#p2:hover {
+    color: #006241;
+    cursor: pointer;
+
+}
+
+#p1 {
+    width: 272px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+#p2 {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p2 i {
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+#sign {
+    background-color: white;
+    padding: 7px 16px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#join {
+    background-color: black;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 20px;
+    border: 0.5px solid white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* header end */
+#greenline {
+    height: 50px;
+    width: 100%;
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 4px 4px 0 #0000001f, 0 0 2px 0 #0000003d;
+    z-index: 10;
+}
+
+#ingl {
+    padding-left: 131px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+
+}
+
+#herosection {
+    background-color: #d4e9e2;
+    background-image: url("./media/1-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 710px;
+
+}
+#hero-text{
+    padding: 32px 40px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    
+}
+.intext{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: left;
+    flex-direction: column;
+    height: 50%;
+    
+}
+.intext span{
+    font-size: 40px;
+    font-weight: 600;
+}
+.intext div{
+    font-size: 19px;
+}
+.rb{
+    background:none;
+    padding: 7px 16px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+}
+
